@@ -1,0 +1,4 @@
+tam vize = 75;
+tam final = 90;
+yazdir vize;
+yazdir final;

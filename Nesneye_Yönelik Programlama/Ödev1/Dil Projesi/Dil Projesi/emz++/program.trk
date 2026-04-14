@@ -1,0 +1,13 @@
+metin karsilama = "Ehliyet Kontrol Sistemine Hos Geldiniz!"; 
+yazdir karsilama; 
+tam dogumYili; 
+oku dogumYili; 
+tam yas = 2026 - dogumYili; 
+eger (yas >= 18) { 
+metin onay = "Tebrikler, resitsiniz ve ehliyet alabilirsiniz."; 
+yazdir onay; 
+} 
+degilse { 
+metin ret = "Maalesef henuz resit degilsiniz."; 
+yazdir ret; 
+} 
